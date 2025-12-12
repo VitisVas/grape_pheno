@@ -19,8 +19,12 @@ Python verion: 3.6
 Before using this model, please check your virtual environment (See environment.yml).  
 
 # Usage
-Run the script inference_LAD_LoRA.py  
-Note: We use the jupyter notebook to programming.
+Run the script multiclass segmentation (camvid).ipynb    
+Modify the relevant parameters in the "Visualization of results on test dataset" module.  
+1) The address of the optimal segmentation weights: (https://drive.google.com/file/d/1ekf3WIKWE4mI08x6cq-y-QwXT9BOBaA9/view?usp=drive_link). Please directly load it in the code "load best weights" and predict the images.  
+2) The paths of the input and output folders.  
+Note: We use the jupyter notebook to programming.  
+
 
 ## Citation
 If you use our project in your research or wish to refer to the results of the project, please use the following BibTeX entry.
