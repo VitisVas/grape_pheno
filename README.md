@@ -1,7 +1,11 @@
-# grape_pheno
-We developed a comprehensive high-throughput pipeline encompassing samples processing.  
-The pipeline integrates deep learning model-based image analysis for high-accuracy segmentation and quantification.  
+## Usage
+We developed a comprehensive high-throughput pipeline encompassing sample processing, image acquisition, deep learning-based segmentation, and quantitative extraction of key topological traits. The pipeline integrates deep learning model-based image analysis for high-accuracy segmentation and quantification.  This project consists of two main parts: 
 
+
+# 🟢 Part 1: Vasculature Extraction
+Focus: Vasculature extraction via deep-learning
+
+# grape_vasculature_pheno
 <img width="529" height="356" alt="84505866-0c60-4f69-94fb-ad560a85a38b" src="https://github.com/user-attachments/assets/301ddd93-fdcc-4e9c-ae2f-af33a3e12878" />
 
 # Model  Architecture
@@ -23,11 +27,23 @@ Run the script multiclass segmentation (camvid).ipynb
 Modify the relevant parameters in the "Visualization of results on test dataset" module.  
 1) The address of the optimal segmentation weights: (https://drive.google.com/file/d/1ekf3WIKWE4mI08x6cq-y-QwXT9BOBaA9/view?usp=drive_link). Please directly load it in the code "load best weights" and predict the images.  
 2) The paths of the input and output folders.  
-Note: We use the jupyter notebook to programming.  
+Note: We use the jupyter notebook to programming.
+
+For the vascular quantification part:
+Please find the README.md and relevant code images in the Vascular_quantification code
+
+# 🔵 Part 2: Vascular Quantification
+
+Focus: Vascular trait quantification
+⭐ Please explore the Vascular_quantification folder for detailed instructions, codes and image dataset.
+
+
+
+
 
 
 ## Citation
-If you use our project in your research or wish to refer to the results of the project, please use the following BibTeX entry.
+If you use our project in your research or wish to refer to the results of the project, please use the following BibTeX entry.（In submisssion currenctly）
 
 ```bibtex
 @article{
